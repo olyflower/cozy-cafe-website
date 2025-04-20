@@ -1,0 +1,48 @@
+body {
+	font-family: "Josefin Sans", sans-serif;
+}
+
+/* index.html */
+main {
+	background-color: #fefaf3;
+}
+
+.navbar-custom {
+	background-color: #dffcdc;
+}
+
+.btn-custom-green {
+	background-color: #46823f;
+	border: none;
+}
+
+footer {
+	background-color: #dffcdc;
+}
+
+/* menu.html */
+.card-height {
+	height: 350px;
+}
+
+/* about.html */
+
+.about-img-square {
+	width: 48%;
+	aspect-ratio: 1 / 1;
+	object-fit: cover;
+}
+
+.about-img-wide {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+}
+
+/* contact.html */
+.map-frame {
+	border: 0;
+	border-radius: 12px;
+	width: 100%;
+	height: 500px;
+}

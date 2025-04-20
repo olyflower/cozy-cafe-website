@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Cozy Cafe</title>
+		<meta
+			name="description"
+			content="Discover our Cozy Cafe menu featuring freshly brewed coffee, delicious desserts, and hearty main courses. Enjoy our espresso, chocolate cake, grilled chicken, and more in a warm and welcoming atmosphere."
+		>
+		<link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+			rel="stylesheet"
+		>
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+			crossorigin="anonymous"
+		>
+
+		<link rel="stylesheet" href="/css/style.css">
+		<script src="/js/menu.js" defer></script>
+	</head>
+	<body class="d-flex flex-column h-100">
+		<header>
+			<nav class="navbar navbar-expand-lg py-4 navbar-custom">
+				<div class="container">
+					<a class="navbar-brand" href="/index.html">
+						<img
+							src="/assets/images/logo.png"
+							alt="Logo"
+							width="150"
+							height="60"
+						>
+					</a>
+
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav mx-auto">
+							<li class="nav-item">
+								<a
+									class="nav-link fw-semibold"
+									href="/index.html"
+									>Home</a
+								>
+							</li>
+							<li class="nav-item ms-5">
+								<a
+									class="nav-link fw-semibold"
+									href="/pages/about.html"
+									>About</a
+								>
+							</li>
+							<li class="nav-item ms-5">
+								<a
+									class="nav-link active fw-semibold"
+									href="/pages/menu.html"
+									>Menu</a
+								>
+							</li>
+							<li class="nav-item ms-5">
+								<a
+									class="nav-link fw-semibold"
+									href="/pages/contact.html"
+									>Contact</a
+								>
+							</li>
+						</ul>
+
+						<a
+							class="nav-link ms-3 fw-semibold"
+							href="/pages/contact.html"
+							>Visit Us</a
+						>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<div class="container py-5">
+				<h1 class="text-center mb-5">Menu</h1>
+
+				<div class="row">
+					<div class="col-md-4 mb-4 text-center">
+						<h2 class="text-center">Coffee</h2>
+						<div class="card d-flex flex-column card-height">
+							<img
+								src="/assets/images/espresso.png"
+								class="card-img-top"
+								alt="Espresso"
+							>
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Espresso</h5>
+								<p class="card-text">
+									A strong, black coffee brewed by forcing
+									steam through ground coffee beans
+								</p>
+								<p class="card-text mt-auto">
+									<strong>Price: $3.00</strong>
+								</p>
+							</div>
+						</div>
+						
+						<div class="card mt-3 d-flex flex-column card-height">
+							<img
+								src="/assets/images/latte1.png"
+								class="card-img-top"
+								alt="Latte"
+							>
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Cappuccino</h5>
+								<p class="card-text">
+									Espresso mixed with steamed milk and topped
+									with foamed milk
+								</p>
+								<p class="card-text mt-auto">
+									<strong>Price: $4.50</strong>
+								</p>
+							</div>
+						</div>
+						<div class="card mt-3 d-flex flex-column card-height">
+							<img
+								src="/assets/images/capuchino.png"
+								class="card-img-top"
+								alt="Capuchino"
+							>
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Latte</h5>
+								<p class="card-text">
+									Espresso with steamed milk, topped with a
+									small amount of foam
+								</p>
+								<p class="card-text mt-auto">
+									<strong>Price: $4.00</strong>
+								</p>
+							</div>
+						</div>
+						<div class="extra-item d-none">
+							<div class="card mt-3 d-flex flex-column card-height">
+								<img
+									src="/assets/images/mocha.png"
+									class="card-img-top"
+									alt="Mocha"
+								>
+								<div class="card-body d-flex flex-column">
+									<h5 class="card-title">Mocha</h5>
+									<p class="card-text">
+										A delightful blend of espresso, steamed
+										milk, and chocolate
+									</p>
+									<p class="card-text mt-auto">
+										<strong>Price: $4.20</strong>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 mb-4 text-center">
+						<h2 class="text-center">Desserts</h2>
+						<div class="card d-flex flex-column card-height">
+							<img
+								src="/assets/images/chokolate.png"
+								class="card-img-top"
+								alt="Chocolate cake"
+							>
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Chocolate Cake</h5>
+								<p class="card-text">
+									A rich and moist chocolate cake with a
+									decadent frosting
+								</p>
+								<p class="card-text mt-auto">
+									<strong>Price: $5.00</strong>
+								</p>
+							</div>
+						</div>
+						<div class="card mt-3 d-flex flex-column card-height">
+							<img
+								src="/assets/images/cheesecake.png"
+								class="card-img-top"
+								alt="Cheese cake"
+							>
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Cheesecake</h5>
+								<p class="card-text">
+									A creamy and smooth cheesecake with a graham
+									cracker crust
+								</p>
+								<p class="card-text mt-auto">
+									<strong>Price: $4.50</strong>
+								</p>
+							</div>
+						</div>
+						<div class="card mt-3 d-flex flex-column card-height">
+							<img
+								src="/assets/images/tiramisu.png"
+								class="card-img-top"
+								alt="Tiramisu"
+							>
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Tiramisu</h5>
+								<p class="card-text">
+									A classic Italian dessert made with mascarpone
+									cheese
+								</p>
+								<p class="card-text mt-auto">
+									<strong>Price: $5.50</strong>
+								</p>
+							</div>
+						</div>
+						<div class="extra-item d-none">
+							<div class="card mt-3 d-flex flex-column card-height">
+								<img
+									src="/assets/images/ice.png"
+									class="card-img-top"
+									alt="Ice Cream"
+								>
+								<div class="card-body d-flex flex-column">
+									<h5 class="card-title">Ice Cream</h5>
+									<p class="card-text">
+										Strawberry ice cream — a delightful
+										treat made from ripe, juicy strawberries
+										and rich cream
+									</p>
+									<p class="card-text mt-auto">
+										<strong>Price: $4.20</strong>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 mb-4 text-center">
+						<h2 class="text-center">Main Courses</h2>
+						<div class="card d-flex flex-column card-height">
+							<img
+								src="/assets/images/chicken.png"
+								class="card-img-top"
+								alt="Chicken grill"
+							>
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Grilled Chicken</h5>
+								<p class="card-text">
+									A tender grilled chicken served with a side
+									of vegetables
+								</p>
+								<p class="card-text mt-auto">
+									<strong>Price: $10.00</strong>
+								</p>
+							</div>
+						</div>
+						<div class="card mt-3 d-flex flex-column card-height">
+							<img
+								src="/assets/images/meat.png"
+								class="card-img-top"
+								alt="Beef meat"
+							>
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Beef Steak</h5>
+								<p class="card-text">
+									A juicy beef steak cooked to your
+									preference, served with mashed potatoes
+								</p>
+								<p class="card-text mt-auto">
+									<strong>Price: $12.00</strong>
+								</p>
+							</div>
+						</div>
+						<div class="card mt-3 d-flex flex-column card-height">
+							<img
+								src="/assets/images/pasta.png"
+								class="card-img-top"
+								alt="Pasta"
+							>
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Vegetarian Pasta</h5>
+								<p class="card-text">
+									A hearty pasta dish with fresh vegetables
+									and a light olive oil sauce
+								</p>
+								<p class="card-text mt-auto">
+									<strong>Price: $8.00</strong>
+								</p>
+							</div>
+						</div>
+						<div class="extra-item d-none">
+							<div class="card mt-3 d-flex flex-column card-height">
+								<img
+									src="/assets/images/soup.png"
+									class="card-img-top"
+									alt="Vegetable soup"
+								>
+								<div class="card-body d-flex flex-column">
+									<h5 class="card-title">Vegetable soup</h5>
+									<p class="card-text">
+										Spring vegetable soup with basil and
+										croutons — a light and nourishing soup
+									</p>
+									<p class="card-text mt-auto">
+										<strong>Price: $4.20</strong>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center mt-4">
+					<button
+						class="btn btn-success btn-custom-green btn-load-more px-4 py-2"
+					>
+						Load more...
+					</button>
+				</div>
+			</div>
+		</main>
+
+		<footer class="py-4 mt-auto">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-4 mb-3">
+						<h5 class="fw-semibold">Contacts</h5>
+						<p class="mb-1">
+							Phone:
+							<a
+								href="tel:+380505555555"
+								class="text-decoration-none text-dark"
+								>+38050 555 55 55</a
+							>
+						</p>
+						<p class="mb-1">
+							Email:
+							<a
+								href="mailto:cozycafe@gmail.com"
+								class="text-decoration-none text-dark"
+								>cozycafe@gmail.com</a
+							>
+						</p>
+						<p class="mb-0">Hours: Mon-Sun, 9 AM - 10 PM</p>
+					</div>
+
+					<div class="col-md-4 mb-3 text-center">
+						<h5 class="fw-semibold">Socials</h5>
+						<a
+							href="https://www.instagram.com/"
+							class="d-block mb-2"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								src="/assets/icons/insta.svg"
+								width="22"
+								alt="Instagram"
+							>
+						</a>
+						<a
+							href="https://www.facebook.com/"
+							class="d-block mb-2"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								src="/assets/icons/facebook.svg"
+								width="22"
+								alt="Facebook"
+							>
+						</a>
+						<a
+							href="https://web.telegram.org/"
+							class="d-block"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img
+								src="/assets/icons/telegram.svg"
+								width="22"
+								alt="Telegram"
+							>
+						</a>
+					</div>
+
+					<div class="col-md-4 mb-3 text-center">
+						<h5 class="fw-semibold">Location</h5>
+						<p class="mb-0">
+							Address: 123 Main Street, City, Country
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+			integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+			integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
