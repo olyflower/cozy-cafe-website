@@ -4,7 +4,8 @@
 Cozy Cafe is a simple and stylish website for a cafe. It includes pages like Home, About, Menu, and Contact, designed to give visitors a warm and welcoming impression of the cafe. The site is fully responsive and easy to navigate on all devices.
 
 ## Technologies  
-- HTML5 & CSS3  
+- HTML5 & CSS 
+- JavaScript 
 - Bootstrap 5  
 - Google Fonts  
 - Responsive design  
